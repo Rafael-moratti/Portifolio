@@ -1,0 +1,119 @@
+/*inicio*/
+.header-container{
+    height: 100vh;
+    width: 90vw;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+
+/*sobre min*/
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.card-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+/*card inicial*/
+
+/*card quem sou*/
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #048b41;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale(0.5) ;
+    color: #1e1e2a;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-text {
+    padding-top: 40px;
+    width: 40%;
+    letter-spacing: 1px;
+    color: #0bb974;
+}
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #fff;
+    opacity: 0;
+    transition:  0.5s ease-in-out;
+
+}
+main div h3 {
+    font-size: 30px;
+    color: #000000;
+}
+.card-wrapper h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5 ease-in-out;
+}
+
+.card-wrapper p {
+    font-size: 25px;
+    color: #000000;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+.card:hover {
+    filter: unset;
+}
+
+.card:hover > .card-wrapper::before {
+    height: 250px;
+    width: 250px;
+    opacity: 1;
+}
+
+.card:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}

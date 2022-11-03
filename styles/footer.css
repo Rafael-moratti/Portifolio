@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+    scroll-behavior: smooth;
+    
+    
+}
+
+.footer {
+    width: 100%;
+    background-color:#110e0f;
+}
+
+.footer-conteiner {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato-creditos {
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    padding: 20px 0;
+}

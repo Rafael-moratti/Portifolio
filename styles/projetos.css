@@ -1,0 +1,87 @@
+.card_ {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding:  15px;
+}
+
+.product-image{
+    
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#imagem1 {
+    background-image: url('../img/JS.gif');
+    border: 2px solid rgba(4, 2, 7, 0.568);
+    border-radius: 5px;
+}
+
+#imagem2 {
+    background-image: url('../img/0.gif');
+    border: 2px solid rgba(4, 2, 7, 0.568);
+    border-radius: 5px;
+}
+.works{
+    padding-top: 50px;
+    font-family: serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#projetos {
+    background-color: 0;
+}
+
+.projetos {
+    padding-top: 93px;
+}
+
+.projetos h2, .projetos a {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia;
+}
+
+.bttn {
+    text-decoration: none;
+    padding: 5px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(rgba(7, 41, 231, 0.637), rgba(0, 183, 255, 0.719), rgba(0, 60, 255, 0.61));
+    border: solid #0c0c0e;
+    transition: ease-in-out 0.3s;
+}
+
+.bttn:hover {
+    background-color: #09a5c0a1;
+}
+
+.github-link {
+    font-family: georgia;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.projetos a {
+    display: inline;
+}
+
+.projetos-itens {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content:center;
+}
