@@ -71,10 +71,11 @@
 }
 
 @media screen and (max-width:400px)
-    {section, aside {
+    {section, card_ {
         Width:100%;
         padding:0;
-}}
+        Background-color: rede;}
+}
 
 .github-link {
     font-family: georgia;
