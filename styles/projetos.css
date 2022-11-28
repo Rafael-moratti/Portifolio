@@ -70,6 +70,12 @@
     background-color: #09a5c0a1;
 }
 
+@media screen and (max-width:400px)
+    {section, aside {
+        Width:100%;
+        padding:0;
+}}
+
 .github-link {
     font-family: georgia;
     margin: 0 auto;
