@@ -70,11 +70,12 @@
     background-color: #09a5c0a1;
 }
 
-@media screen and (max-width:400px)
-    {section, card_ {
+@media screen and (max-width:400px){
+    section, card_ {
         Width:100%;
         padding:0;
-        Background-color: rede;}
+        Background-color: red;
+    }
 }
 
 .github-link {
