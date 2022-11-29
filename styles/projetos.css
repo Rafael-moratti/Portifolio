@@ -70,14 +70,6 @@
     background-color: #09a5c0a1;
 }
 
-@media screen and (max-width:400px){
-    section, card_ {
-        Width:100%;
-        padding:0;
-        Background-color: red;
-    }
-}
-
 .github-link {
     font-family: georgia;
     margin: 0 auto;
