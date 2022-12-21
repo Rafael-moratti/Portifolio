@@ -163,6 +163,27 @@ body {
   color: white;
 }
 
+.social-media {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.social-media a {
+  text-decoration: none;
+  color:rgba(19, 87, 155, 0.911);
+  padding: 1rem 4rem;
+  border: 1px solid #1d525c;
+  min-width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+
+a:hover {
+  background-color: rgba(56, 89, 151, 0.5);
+}
+
 .skills {
   font-family: georgia;
   background-color: #004169;
