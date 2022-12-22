@@ -153,7 +153,7 @@ body {
   max-height: 100%;
 }
 .hero__img_II {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 10px;
   max-width: 70%;
   max-height: 70%;
@@ -191,7 +191,6 @@ body {
 
 .introduction--2 {
   font-weight: 900;
-  z-index: 0;
 }
 
 .introduction--3 {
@@ -363,7 +362,7 @@ a:hover {
 }
 
 .other-technologies-header {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .work {
