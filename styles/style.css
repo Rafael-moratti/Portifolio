@@ -60,6 +60,19 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+.navigation__l {
+  position:fixed;
+  margin-top: 40%;
+  margin-left: 92%;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
 
 .navigation__links li {
   padding: 1rem;
@@ -87,6 +100,29 @@ body {
 }
 
 .primary-button:hover {
+  color: white;
+  background-color: #004169;
+}
+
+.primary-B {
+  background-color: #0f485f4b;
+  text-decoration: none;
+  border: solid #101d47;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 1rem;
+  color: #000000;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.primary-B:visited {
+  color: #004169;
+  background-color: white;
+}
+
+.primary-B:hover {
   color: white;
   background-color: #004169;
 }
@@ -129,7 +165,7 @@ body {
 }
 
 .product-image{
-  
+  z-index: 0;
   height: 300px;
   width: 100%;
   margin-bottom: 10px;
@@ -154,6 +190,7 @@ body {
 
 .introduction--2 {
   font-weight: 900;
+  z-index: 0;
 }
 
 .introduction--3 {
@@ -415,7 +452,7 @@ a:hover {
 .project-image {
   display: block;
   background-size: contain;
-  width: 100%;
+  width: 80%;
   border-radius: 15px;
   -webkit-transition: 0.5s ease;
   transition: 0.2s ease;
@@ -505,7 +542,7 @@ a:hover {
   min-height: 100px;
   background-color: #004169;
   padding-bottom: 1rem;
-  font-size: 25px;
+  font-size: 20px;
   font-family: georgia;
   color: rgb(2, 2, 2);
 }
