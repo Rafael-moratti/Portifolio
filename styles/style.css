@@ -63,8 +63,8 @@ body {
 .navigation__l {
   z-index: 1;
   position:fixed;
-  margin-top: 41%;
-  margin-left: 92%;
+  margin-top: 40%;
+  margin-left: 90%;
   
   display: -webkit-box;
   display: -ms-flexbox;
@@ -590,6 +590,7 @@ a:hover {
   .hero__description {
     margin-bottom: 2rem;
   }
+  
 }
 
 @media screen and (max-width: 1120px) {
@@ -614,6 +615,9 @@ a:hover {
   .text--2 {
     top: 80%;
     left: 76%;
+  }
+  .navigation__l {
+    margin-left: 88%;
   }
 }
 
@@ -708,6 +712,9 @@ a:hover {
     top: 80%;
     left: 76%;
   }
+  .navigation__l {
+    margin-left: 88%;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -748,6 +755,9 @@ a:hover {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
+  .navigation__l {
+    margin-left: 85%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -762,5 +772,11 @@ a:hover {
   }
   .introduction {
     font-size: 30px;
+  }
+  .navigation__l {
+    display: none;
+  }
+  .primary-B {
+    display: none;
   }
 }
