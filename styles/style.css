@@ -761,14 +761,13 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  .project-description {
-    font-size: 12px;
-    padding: 8px 16px;
+  .small-button {
+    font-size: 11px;
+    padding: 0.4rem;
   }
-  .text {
-    min-width: 100px;
-    font-size: 12px;
-    padding: 0.5rem;
+  .text--1 {
+    top: 77%;
+    left: 35%;
   }
   .introduction {
     font-size: 30px;
